@@ -73,6 +73,9 @@ header img{
     height: 200px;
     width: 300px;
 }
+.item-foto figcaption{
+    top:10px;
+}
 .links-header a{
     margin-inline: 10px;
     text-decoration: underline;
