@@ -58,6 +58,7 @@ header img{
 }
 .titulo-fea{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     height: 120px;
 }
