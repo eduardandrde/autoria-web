@@ -65,6 +65,14 @@ header img{
 .fea-container{
     max-width: 1000px;
 }
+.item-foto{
+    margin-inline: 15px;
+    margin-bottom: 45px;
+}
+.item-foto img{
+    height: 200px;
+    width: 300px;
+}
 .links-header a{
     margin-inline: 10px;
     text-decoration: underline;
