@@ -4,14 +4,17 @@
 }
 body{
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     background-color: black;
+    font-size: 22px;
     opacity: 0.9;
     text-align: center;
     color:aliceblue;
+    font-family: Helvetica;
 }
-main{
+.main{
     width: 1200px;
 }
 header{
@@ -30,6 +33,7 @@ header{
 header img{
     margin-left: 10px;
     height: 50px;
+    width: auto;
 }
 .background{
     height: 700px;
@@ -55,6 +59,7 @@ header img{
     flex-wrap: wrap;
     height: auto;
     justify-content: center;
+
 }
 .titulo-fea{
     display: flex;
@@ -74,10 +79,49 @@ header img{
     width: 300px;
 }
 .item-foto figcaption{
-    top:10px;
+    top:2px;
+    position: relative;
 }
 .links-header a{
     margin-inline: 10px;
     text-decoration: underline;
     color:gray;
+}
+.localizacao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('resources/img-locations-background.jpg');
+    min-height: 580px;
+    width: 100%;
+    background-size: cover;
+}
+.titulo-loc{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.cards{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.foter-infos{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 0 20px 30px;
+    opacity: 1;
+    justify-content: space-evenly;
+}
+.barrinha-copy{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
 }
