@@ -90,7 +90,7 @@ section{
 .links-header a{
     margin-inline: 10px;
     text-decoration: underline;
-    color:gray;
+    color:white;
 }
 .localizacao{
     display: flex;
