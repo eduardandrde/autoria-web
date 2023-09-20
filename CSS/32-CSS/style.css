@@ -14,8 +14,8 @@ body{
     color:aliceblue;
     font-family: Helvetica;
 }
-.main{
-    width: 1200px;
+main{
+    max-width: 1200px;
 }
 header{
     display:flex;
@@ -60,6 +60,10 @@ header img{
     height: auto;
     justify-content: center;
 
+}
+section{
+    max-width: 1200px;
+    margin-top: 69px;
 }
 .titulo-fea{
     display: flex;
@@ -128,6 +132,7 @@ header img{
     gap:15px;
 }
 .barrinha-copy{
-    left: 20px;
+    text-align: left;
     position: absolute;
+    left:20px;
 }
