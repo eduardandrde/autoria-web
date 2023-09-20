@@ -66,9 +66,10 @@ header img{
     flex-direction: column;
     justify-content: space-evenly;
     height: 120px;
+    margin-bottom: 10px;
 }
 .fea-container{
-    max-width: 1000px;
+    max-width: 1200px;
 }
 .item-foto{
     margin-inline: 15px;
@@ -79,7 +80,7 @@ header img{
     width: 300px;
 }
 .item-foto figcaption{
-    top:2px;
+    margin: 10px;
     position: relative;
 }
 .links-header a{
@@ -90,9 +91,10 @@ header img{
 .localizacao{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     background-image: url('resources/img-locations-background.jpg');
-    min-height: 580px;
+    height: 500px;
     width: 100%;
     background-size: cover;
 }
@@ -101,8 +103,9 @@ header img{
     margin-bottom: 15px;
 }
 .cards{
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
 }
 .foter-infos{
     display: flex;
@@ -113,15 +116,18 @@ header img{
     justify-content: space-around;
 }
 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 300px;
     width: 300px;
     background-color: black;
     margin: 0 20px 30px;
     opacity: 1;
     justify-content: space-evenly;
+    gap:15px
 }
 .barrinha-copy{
-    display: flex;
-    justify-content: flex-start;
-    padding: 20px;
+    left: 20px;
+    position: absolute;
 }
